@@ -1,4 +1,5 @@
 'use strict';
+
 var phonecatApp = angular.module('phonecatApp', [
   'ngRoute',
   'phonecatAnimations',
@@ -7,7 +8,6 @@ var phonecatApp = angular.module('phonecatApp', [
   'phonecatFilters',
   'phonecatServices'
 ]);
-
 
 phonecatApp.config(['$routeProvider',
   function($routeProvider) {
@@ -24,3 +24,4 @@ phonecatApp.config(['$routeProvider',
         redirectTo: '/phones'
       });
   }]);
+
